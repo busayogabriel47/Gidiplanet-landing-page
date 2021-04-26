@@ -1,0 +1,187 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+    margin-right: 2em;
+}
+.nav-item a,.nav-item span{
+    font-size: 0.7em;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item span{
+    font-size: 0.5em;
+}
+.nav-item img{
+    border-radius: 50%;
+}
+.nav-item .fa{
+    color: #00acf1 !important;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 991px){
+    header{
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .navbar-toggler{
+        background-color: #fff !important;
+        border: none;
+    }
+    .updates{
+            margin-bottom: -50px;
+            position: relative;
+            z-index: 20;
+        }
+        .supportCol h1{
+            margin-top: 120px;
+        }
+        .academyCustomerCol{
+            border: none !important;
+        }
+}
+button.navbar-toggler{
+    float: right;
+}
+.glance h1, 
+.academyCustomer h1,
+.ourSolution1 h1,
+.ourSolutionCol h1, 
+.whatwedoCol h1, 
+.ourPartnerCol h1,
+.NewEvents2 h1,
+.NewEvents1 h1,
+.supportCol h1,.supportCol2 h1{
+    font-size: 1.7em;
+}
+.academyCustomerCol {
+    border-right: 2px solid #ffb761;
+}
+.ourSolution1{
+    background-color: #41c3e5;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution2{
+    background-color: #3756b1;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution3{
+    background-color: #ff8f05;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution4{
+    background-color: #fe0000;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution5{
+    background-color: #c054b7;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution6{
+    background-color: #a93132;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution7{
+    background-color: #00a55b;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolution8{
+    background-color: #a98412;
+    color: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+.ourSolutionCol h1, 
+.whatwedoCol h1{
+    color: #fe940c;
+}
+
+/*-----------------What We Do--------------------*/
+.carousel-indicators li {
+    background-color: #70c3f3;
+    width: 100px;
+    height: 10px;
+    border-radius: 20% !important;
+    margin-right: 30px;
+}
+.carousel-indicators .active {
+    background-color: #2e3093;
+}
+.carousel-indicators {
+  position: absolute !important;
+  background-color: #fff;
+  margin-bottom: -50px;
+}
+
+.ourPartnerCol{
+    border-bottom: 2px solid #ff9a26;
+}
+/*-----------------NewsandEvents----------*/
+.NewEvents2 img{
+    border: 4px solid #ff9a26;
+}
+.updates{
+    margin-bottom: -200px;
+    position: relative;
+    z-index: 20;
+}
+.updatesRow{
+    background-color: #ff8f05;
+}
+.updatesCol h1{
+    font-size: 1.3em;
+}
+input#email{
+    width: 100%;
+    padding-right: 50px !important;
+}
+input#email, .updatesCol button{
+    border-radius: 0;
+}
+.updatesCol button{
+    background-color: #555555 !important;
+    border: none;
+}
+.support{
+    background-color: #3f4bc1;
+    margin-top: 10%;
+}
+.supportCol{
+    margin-top: 10%;
+}
+.supportCol p,.supportCol2 p{
+    font-size: 0.8em;
+}
+.supportCol2 hr{
+    background-color: #639fe3;
+}
